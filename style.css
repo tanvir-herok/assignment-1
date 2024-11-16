@@ -1,0 +1,183 @@
+header{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    width: 80%;}
+nav>ul li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+nav>ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+nav>ul li a{
+    border-bottom: 2px solid transparent;
+}
+nav>ul li a:hover{
+    border-bottom: 2px solid salmon;
+    transition: 0.3s ease-in 0.2s;
+}
+.Influencer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin:60px auto;
+    width: 80%;
+    padding-top: 30px;
+}
+    .inf-title{
+        font-size: 4.25rem;
+        color: black;
+        font-weight: 700;
+    }
+    .inf-det{
+        font-size: 1.25rem;
+        font-weight: 200;
+        color:black;
+        opacity: 0.9;
+        margin-bottom: 10px;
+        
+    }
+    .firstbtn{
+        padding: 5px 25px;
+        background: #fe00c3;
+        color: white;
+        border-radius: 25px;
+        font-weight: 600;
+        margin-top: 20px;
+        border: none;
+
+    }
+    .cameraphoto{
+        background-image: url("images/Circle\ design.svg");
+        background-position: bottom right;
+    }
+    .cameraphoto img{
+        align-content: center;
+    }
+    .logos{
+        align-items: center;
+    margin:0 auto;
+    width: 80%;
+    gap: 30px;
+}
+.logos img{
+    paddingt:10px 10px 40px 0px;
+    margin-left: 30px;
+}
+section>hr{
+    align-items: center;
+    margin:0 auto;
+    width: 80%;
+    
+}
+.populer-container{
+    align-items: center;
+    margin:0 auto;
+    width: 80%;
+background-color: antiquewhite;
+}
+.populer-container>h4{
+    font-size: 3.25rem;
+   margin-left: 35%;
+    font-weight: 400;
+}
+.card{
+    background-color: aliceblue;
+    width: 270px;
+    height: auto;
+    box-shadow: 2px gray;
+    margin-left: 50px;
+}
+    .pop-itms{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        align-content: center;
+        
+    }
+    .card img{
+        width: 100%;
+
+    }
+    .card h2{
+        font-size: 2.25rem;
+        font-weight: 200;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .card h4{
+        font-size:3rem ;
+        font-weight: 400;
+        margin: 0;
+    }
+    .card p{
+        font-size: 1.15rem;
+        color: gray;
+        font-weight: 200;
+    }
+    .see-more {
+        text-align: right;
+        margin-right: 120px;
+        margin-top: 10px;
+      }
+      
+      .see-more a {
+        color: #ff1493;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      .see-more a:hover {
+        text-decoration: underline;
+      }
+    
+      .feature-contaner{
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+
+      }
+      .gear-title{
+        font-size: 2.25rem;
+        font-weight: 300;
+
+      }
+   footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+   }
+
+   .h1text{
+    margin-top: 10px;
+    font-weight: 200;
+   }
+   .icons{
+    font-size: 20px;
+    padding: 20px;
+   }
+   div>i{
+    padding: 10px;
+   }
+   div>i:hover{
+    background-color: antiquewhite;
+    border: none;
+    transform: rotate(-45deg);
+    color: salmon;
+    transition: transform 2s ease-in-out 0.1s;
+   }
